@@ -26,7 +26,10 @@
 </div> --}}
 
 @foreach ($projects as $project)
-    <p>{{$project->title}}</p>
+    <p>TITLE: {{$project->title}}</p>
+    <p>CONTENT: {{$project->content}}</p>
+    <p>DEAD LINE: {{$project->deadline}}</p>
+    <hr>
 @endforeach
 
 @endsection
